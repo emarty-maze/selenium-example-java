@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
-
-<suite name="Google Search Suite">
-
-    <test name="emailtest">
-        <classes>
-            <class name="google.selenium.SearchVerification" />
-        </classes>
-    </test>
-
-</suite>
+<suite name="Test Automation" thread-count="1">
+<test name="ExampleTest">
+    <classes>
+        <class name="google.selenium.SearchVerification" />
+    </classes>
+</test>
+</suite> <!-- Suite -->
